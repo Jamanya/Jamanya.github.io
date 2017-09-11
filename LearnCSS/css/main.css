@@ -1,8 +1,11 @@
 body {
-    background-image: url(img/pacman.png);
+    background-image: url(../img/pacman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-container {
+.container {
     background: linear-gradient(to right, #0080ff, #0000ff);
+    box-shadow: 3px 5px 3px #fff;
 }
 
 h1 {
@@ -14,4 +17,10 @@ h1 {
 h2 {
     color: #fff;
     text-shadow: 1px 1px 3px darkred;
+}
+
+.borderImg {
+    width: 150px;
+    height: 100px;
+    border: 2px solid white;
 }
